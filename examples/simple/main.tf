@@ -16,7 +16,7 @@ resource "digitalocean_tag" "bar" {
 }
 
 module "consul_client_ports_do" {
-  source = "../../consul-client-ports-do"
+  source = "../../../terraform-digitalocean-consul-firewall"
 
   droplet_ids = digitalocean_droplet.web.*.id
   tags        = [digitalocean_tag.foo.name, digitalocean_tag.bar.name]
