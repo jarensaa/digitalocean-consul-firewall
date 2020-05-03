@@ -2,7 +2,7 @@
 
 Creates a standard firewall with ports open for a Consul server
 
-Checkout [example](./example) for fully functioning example.
+Checkout [example](./example) for a fully functioning example.
 
 ## Environment Variables
 
